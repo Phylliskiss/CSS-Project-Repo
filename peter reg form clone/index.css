@@ -1,0 +1,302 @@
+body{
+	background-color: lightblue;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.container{
+	
+	display: flex;
+	justify-content: center;
+}
+.container div{
+	height: 240px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin-bottom: 20px;
+	
+}
+.main-head{
+	display: flex;
+	justify-content: center;
+}
+.top{
+	height: 10px;
+	width: 720px;
+	background-color: darkblue;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.entermail{
+	display: flex;
+	justify-content: center;
+}
+.entermail div{
+	height: 130px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.entermail input{
+	width: 350px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 15px;
+}
+.fullName{
+	display: flex;
+	justify-content: center;
+	}
+.fullName div{
+	height: 130px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.fullName input{
+	width: 350px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+    font-size: 15px;
+}
+.phoneNumber{
+	display: flex;
+	justify-content: center;
+	}
+.phoneNumber div{
+	height: 130px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.phoneNumber input{
+	width: 350px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 15px;
+}
+.phoneNumberKin{
+	display: flex;
+	justify-content: center;
+	}
+.phoneNumberKin div{
+	height: 180px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.phoneNumberKin input{
+	width: 350px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 15px;
+}
+.halfpayment{
+	display: flex;
+	justify-content: center;
+	}
+.halfpayment div{
+	height: 130px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.halfpayment input{
+	
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 15px;
+}
+.payer{
+	display: flex;
+	justify-content: center;
+	}
+.payer div{
+	height: 180px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.payer input{
+	
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 15px;
+}
+.location{
+	display: flex;
+	justify-content: center;
+	}
+.location div{
+	height: 130px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	
+}
+.location input{
+	width: 350px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 15px;
+}
+.school{
+	display: flex;
+	justify-content: center;
+	}
+.school div{
+	height: 130px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	
+}
+.school input{
+	width: 350px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 15px;
+}
+.join{
+	display: flex;
+	justify-content: center;
+	}
+.join div{
+	height: 130px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	
+}
+.join input{
+	width: 350px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 15px;
+}
+.about{
+	display: flex;
+	justify-content: center;
+	}
+.about div{
+	height: 130px;
+	width: 700px;
+	background-color: white;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	
+}
+.about input{
+	width: 350px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 15px;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	}
+.footer div{
+	height: 130px;
+	width: 700px;
+	padding: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding-top: 30px;
+	padding-left: 15px;
+	
+}
+.footer input{
+	width: 100px;
+	height: 40px;
+	color: white;
+	background-color: royalblue;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	font-size: 15px;
+}

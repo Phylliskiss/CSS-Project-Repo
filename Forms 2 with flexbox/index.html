@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form my second class exercise</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+	*{
+		font-family: "Poppins";
+		margin: 0;
+		padding: 0;
+
+		} 
+
+		body{
+			display: flex;
+			height: 100vh;
+			justify-content:center;
+			align-content: center;
+			padding: 10px;
+			background-color: ;
+			background-image: url("images/gym.jpg.jpg");
+		}
+
+		.entireform{
+			background-color: lightyellow;
+			background-size: cover;
+			width: 38vw;
+			margin-top: 20px;
+			padding-top: 30px;
+			margin-bottom: 10px;
+			border-radius: 30px;
+		}
+		 .details , .genderdetails {
+			font-size:18px;
+			color: black;
+			border-style: none;
+			border-color: darkred;
+			border-radius: curved;
+			padding:20px 50px;
+
+		}
+
+		.details input
+		{width: 30vw;
+			height: 20px}
+
+			#dot{
+				margin-right: 10px;
+			}
+
+		.button input{
+			height: 100%;
+			width: 10vw;
+			color: white;
+			outline-color: none;
+			border-radius: none;
+			font-weight: 500;
+			font-size: 25px;
+			border-radius: 5px;
+			letter-spacing: 1px;
+			background: darkgoldenrod;
+			border-color: white;
+			text-transform: uppercase;
+		}	
+
+		.button input:hover{ 
+		background: green; 
+
+	}
+
+		.heading{
+			margin-bottom: 0;
+			padding-bottom: 0;
+
+		} 
+
+
+	</style>
+</head>
+<body>
+	<form class="entireform">
+	<div class="heading" style="color: darkgoldenrod; font-weight:bolder; padding-left: 50px; font-size: xx-large; text-transform: uppercase;"> Gym Registration Form</div>
+
+	<div class="details">
+		<label >First Name</label> <br/>
+			<input type="text" name="First name" placeholder="Enter Your Name"/>
+		<br/> <br/>
+
+		<label>Last Name</label> <br/>
+		<input type="text" name="Last name" placeholder="Enter Your Last Name"/>
+
+		<br/> <br/>
+
+		<label>Email</label> <br/>
+		<input type="text" name="Email" placeholder="Enter Your Email Address"/>
+
+		<br/> <br/>
+		<label>Phone</label> <br/>
+		<input type="text" name="Phone" placeholder="Enter Your Number"/>
+	</div>
+
+	<div class="genderdetails">
+		<label>Gender</label> 
+		<br/>
+		<label>Male</label>
+		<input type="radio" name="gender" value="male" id='dot'/>
+
+		<label>Female</label>
+		<input type="radio"; name="gender" value="Female" id='dot'/>
+
+		<label>Other</label>
+		<input type="radio" ; name="gender" value="Other" id='dot'/>
+		<br/><br/>
+
+		<div class="button">
+			<input id="submit" type="Submit" name="submit"/>
+		</div>
+		
+	</div>
+
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+*{
+	font-family: "roboto";
+}
+
+.all1{
+			background-color: lightyellow;
+			background-size: cover;
+			width: 50vw;
+			margin: 0;
+		}
+		.part1{
+			font-size: x-large;
+			color: darkred;
+			font-weight: bolder;
+			border-style: none;
+			border-color: darkred;
+			border-radius: curved;
+			padding:20px 50px;
+
+		}
+
+		.part1 input
+		{width: 30vw;
+			height: 20px}
+
+		.part2{
+			/*font-family: serif;*/
+			font-size: x-large;
+			color: darkred;
+			font-weight: bolder;
+			border-style: none;
+			border-color: darkred;
+			border-radius: curved;
+			padding:20px 50px;
+		}

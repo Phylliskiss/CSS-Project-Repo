@@ -1,0 +1,118 @@
+
+body{
+    margin: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+/* Nav bar Style  */
+    .header{
+        background-color: #283593;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:0 45px;
+        flex-wrap: wrap;
+       }
+
+            /* the .nav a{} is called a decendant selector  */
+    .nav a{
+        color:#fff;
+        font-size: 20px;
+        text-decoration:none;
+        display: block;
+        transition: all o.3s ease-out;
+
+    }
+
+            /* trasnform, transition and display has some features try more  */
+    .nav a:hover{
+        color: #c5cae9;
+        transform: rotate(6deg);
+    }
+            /* I like the idea of the list syle try to use it more some time  */
+    .nav{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        display: flex;
+    }
+
+    .nav li{
+        margin-left: 20px;
+    }
+
+/* Hero Section style  */
+       
+    .hero{
+        background-color: #c5cae9;
+        padding: 60px 45px;
+        display: flex;
+        justify-content: center;
+    }
+    .hero-inner{
+       max-width: 760px; 
+       /* set max-width instead of only width to avoid horizontal scrollbar on small /big screens should exceed 760px */
+
+    }
+
+    .hero h1{
+        font-weight: normal;
+        font-size: 4rem;
+        margin: 0;
+    }
+
+    .hero p{
+        font-size: 1.20rem;
+        line-height: 1.6;
+        /* line space don't need unit of measurement so no px etc  */
+    }
+
+    .button {
+        background-color: #3949ab;
+        color: #fff;
+        text-decoration: none;
+        padding: 12px 20px;
+        border-radius: 8px;
+        font-size: 1.20rem;
+        display: inline-block;
+    }
+
+    /* Cards section style  */
+        .cards{
+            background-color: #e8eaf6;
+            height: 800px;
+            flex-wrap: wrap;
+
+        }
+
+        .card-1{
+           display: flex;
+           justify-content: center;
+           align-content: center;
+           padding: 50px 50px 0px 50px;
+           margin-right: 50px;
+           margin-left: 50px;
+           font-size: 1.18rem;
+        }
+
+        .featured-item{
+            max-width: 760px;
+
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .featured-item h1{
+            font-size: 1.50rem;
+            font-weight: normal;
+            margin: 0;
+        }
+
+        .footer{
+            display: flex;
+            background-color: #fff;
+            color:gray;
+            align-items: center;
+            justify-content: center;
+        }

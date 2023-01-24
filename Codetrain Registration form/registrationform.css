@@ -1,0 +1,378 @@
+
+/* fontface style */
+
+	*{ 
+		font-family:'Roboto', sans-serif;
+        font-size: 16px;
+
+	}
+/* Body style */
+		body{
+		background-color: lightblue;
+		}
+
+/*Blue head styles*/
+		.bluebar-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		}
+
+		.blue-bar{
+		height: 10px;
+		width: 45vw;
+		background-color: darkblue;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		}
+
+		.bluebar-container div{
+		padding-left: 15px;
+		padding-top: 5px;
+		padding-right: 15px;
+		}
+
+
+/*head styles*/
+
+		.head-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 15px;
+
+		}
+
+		.head{
+		height: 250px;
+		width: 45vw;
+		background-color: white;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+
+		}
+
+		.head-container div{
+		padding-left: 15px;
+		padding-top: 5px;
+		padding-right: 15px;
+		}
+
+
+/*Email container style*/
+		.email-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 15px;	
+		}
+
+		.email{
+		height: 120px;
+		width: 45vw;
+		background-color: white;
+		border-radius: 10px;
+
+		}
+
+		.email-container div{
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-right: 15px
+
+		}
+
+		.email-container input{
+			border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			width: 22vw;
+		}
+
+
+/*fullname styles*/
+		.fullname-container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+
+		.fullname{
+			height: 120px;
+			width: 45vw;
+			background-color: white;
+			border-radius: 10px;
+			}
+
+
+		.fullname-container div{
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-right: 15px;
+		}
+
+		.fullname-container input{
+			border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			width: 22vw;
+		}
+            
+/*Phone number styles*/
+		.phone-container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+
+		}
+
+		.phone{
+			height: 120px;
+			width: 45vw;
+			background-color: white;
+			border-radius: 10px;
+		}
+
+
+		.phone-container div{
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-right: 15px;
+		}
+		
+        .phone-container input{
+            border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			width: 22vw;
+		}
+
+/* phone number of next of king style */
+		.phonenextofkin-container{
+			display: flex;
+            justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;	
+		}
+
+		.nextofkin{
+			height: 160px;
+			width: 45vw;
+			background-color: white;
+			border-radius: 10px;
+		}
+
+		.phonenextofkin-container div{
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-right: 15px;
+		}
+		
+        .phonenextofkin-container input{
+            border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			width: 22vw;
+		}
+
+/* sixtyfee */
+		.sixtyfee-container{
+			display: flex;
+            justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+
+		.sixtyfee{
+			height: 120px;
+			width: 45vw;
+			background-color: white;
+			border-radius: 10px;
+		}
+		
+        .sixtyfee-container div{
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-right: 15px;
+		}
+
+		.sixtyfee-container input{
+            border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+		}
+
+/* fee giver Styles  */
+		.feegiver-container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+
+		.feegiver-bar{
+			height: 165px;
+			width: 45vw;
+			background-color: white;
+			border-radius: 10px;
+		}
+
+		.feegiver-container div{
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-right: 15px;
+		}
+		.feegiver-containerinput{
+            border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+		}
+
+/* Location Styles */
+		.location-container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+
+		.location{
+			height: 110px;
+			width: 45vw;
+			background-color: white;
+			border-radius: 10px;
+		}
+
+		.location-container div{
+            padding-left: 15px;
+			padding-top: 30px;
+			padding-right: 15px;
+		}
+		.location-container input{
+            border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			width: 22vw;
+		}
+
+/* current schoolStyles */
+		.cschool-container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+
+		.cschool{
+			height: 110px;
+			width: 45vw;
+			background-color: white;
+			border-radius: 10px;
+		}
+
+		.cschool-container div{
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-right: 15px;
+		}
+		.cschool-container input{
+			border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			width: 22vw;
+		}
+
+
+/* whycodetrain Styles */
+		.whycodetrain-container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+
+		.whycodetrain{
+			height: 110px;
+			width: 45vw;
+			background-color: white;
+			border-radius: 10px;
+		}
+
+		.whycodetrain-container div{
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-right: 15px;
+		}
+		.whycodetrain-container input{
+			border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			width: 22vw;
+		}
+
+/* Why codetrain Styles */
+		.aboutct-container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+
+		.aboutct{
+			height: 110px;
+			width: 45vw;
+			background-color: white;
+			border-radius: 10px;
+		}
+
+		.aboutct-container div{
+			padding-left: 15px;
+			padding-top: 30px;
+			padding-right: 15px;
+		}
+		.aboutct-container input{
+			border-top: 0px;
+			border-right: 0px;
+			border-left: 0px;
+			width: 22vw;
+		}
+
+/* footer style */
+
+		.footer-container{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 15px;
+		}
+
+		.footer{
+			height: 110px;
+			width: 45vw;
+			border-radius: 10px;
+		}
+
+		.cards{
+			display: flex;
+			justify-content:space-between;
+		}
+
+		#footerbar{
+			border-radius:10px; 
+			width: 13vw; 
+			height: 7px;
+			background-color: green;
+			border: 0px;
+		}
+
+		#submit{
+			border-radius: 5px;
+			width: 7vw; 
+			height: 35px;
+			background-color:rgb(0, 128, 255);
+			color: white;
+			border: 0px;
+		}

@@ -1,0 +1,23 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,200;0,400;1,500&display=swap');*/
+h1,h3,h5 { text-align: center; 
+		color: #700101;
+		font-family: fantacy;
+		font-size: 40px;
+	}
+
+body{ background-image: url(background.jpg.jpg) ; }
+
+.Dessert1{ 
+			background-color: #f5d7d7 ; 
+			font-family: cursive; 
+			color:darkblue;
+		}
+
+.dessert2 { background-color: #fff5ad; color: black; font-family: cursive;}
+
+#Dimage { width: 500px; height: !important; }
+/*#d1{color: darkblue;}*/
+
+.hobbies{ background-color: #b4ddfa; 
+font-family: cursive; 
+	color: Black;}
